@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url(Background.png);
+    background: url(tim-mossholder-Kjy0Q_S_2xg-unsplash.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -24,7 +24,7 @@ body {
     border-radius: 10px;
     color: #fff;
     padding: 30px 40px;
-    box-shadow: 0 0 10px rgba(0, 0, blue0, alpha.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0,.2);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 }
@@ -115,10 +115,25 @@ body {
 
 .register-link a {
     text-decoration: none;
-color: #fff;
-font-weight: 500;
+    color: #fff;
+    font-weight: 500;
 }
 
 .register-link a:hover {
     text-decoration: underline;
+}
+
+.botao {
+    padding: 10px 35px;
+    background: #0d9488;
+    border-radius: 45px;
+    color: #fff;
+    border: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.botao:hover {
+    background: #067067;
 }

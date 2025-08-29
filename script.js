@@ -3,9 +3,9 @@ function logar() {
     var senha = document.getElementById('senha').value;
 
     if (login == "admin" && senha == "admin") {
-    alert('Sucesso');
-    location.href = "home.html";
-}else{
-    alert('Usuário ou senha incorretos!');
-}
+        alert('Sucesso');
+        location.href = "home.html";
+    } else {
+        alert('Usuário ou senha incorretos!');
+    }
 }
